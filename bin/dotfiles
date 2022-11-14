@@ -13,7 +13,7 @@ SSH_DIR="$HOME/.ssh"
 
 # Install Ansible
 if ! [ -x "$(command -v ansible)" ]; then
-  sudo brew install ansible
+  brew install ansible
 fi
 
 
