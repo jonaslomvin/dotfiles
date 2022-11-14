@@ -7,9 +7,15 @@ DOTFILES_DIR="$HOME/.dotfiles"
 SSH_DIR="$HOME/.ssh"
 
 # Install Ansible
+#if ! [ -x "$(command -v ansible)" ]; then
+#  sudo pacman -S ansible --noconfirm
+#fi
+
+# Install Ansible
 if ! [ -x "$(command -v ansible)" ]; then
-  sudo pacman -S ansible --noconfirm
+  sudo brew install ansible
 fi
+
 
 # Generate SSH keys
 if ! [[ -f "$SSH_DIR/authorized_keys" ]]; then
