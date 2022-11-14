@@ -1,4 +1,4 @@
-# Jonas Lomvin's "Dotfiles"
+# My "Dotfiles"
 
 Hi, there! 👋
 
