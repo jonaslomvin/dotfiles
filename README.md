@@ -1,4 +1,4 @@
-# My "Dotfiles"
+# My Personal "Dotfiles"
 
 Hi, there! 👋
 
