@@ -1,11 +1,4 @@
 ---
-- name: Install
-  ansible.builtin.package:
-    name:
-      - git
-    state: latest
-  become: yes
-
 - name: Set diff.colorMoved
   community.general.git_config:
     name: diff.colorMoved
