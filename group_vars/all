@@ -1,9 +1,2 @@
 default_roles:
-  - system
-  - azure-cli
   - git
-  - github-cli
-  - kubectl
-  - terraform
-  - visual-studio-code
-  - zsh
