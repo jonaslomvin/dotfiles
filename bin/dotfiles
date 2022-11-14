@@ -7,9 +7,9 @@ DOTFILES_DIR="$HOME/.dotfiles"
 SSH_DIR="$HOME/.ssh"
 
 # Install Ansible
-#if ! [ -x "$(command -v ansible)" ]; then
+# if ! [ -x "$(command -v ansible)" ]; then
 #  sudo pacman -S ansible --noconfirm
-#fi
+# fi
 
 # Install Ansible
 if ! [ -x "$(command -v ansible)" ]; then
