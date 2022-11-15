@@ -1,2 +1,4 @@
 default_roles:
+  - brew-bat
+  - brew-azure-cli
   - git
