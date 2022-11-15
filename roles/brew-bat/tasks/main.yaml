@@ -1,8 +1,0 @@
----
-- name: Set diff.colorMoved
-  community.general.git_config:
-    name: diff.colorMoved
-    scope: global
-    value: zebra
-
-
